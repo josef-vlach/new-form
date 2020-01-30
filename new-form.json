@@ -44,6 +44,13 @@
             "hkj",
             "jkh"
           ]
+        },
+        {
+          "id": "dsadas",
+          "type": "info",
+          "label": "dsdasdsa",
+          "infoType": "standard",
+          "infoText": "## Info"
         }
       ]
     }
