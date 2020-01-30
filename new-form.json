@@ -25,7 +25,27 @@
   "sections": [
     {
       "title": "Title",
-      "fields": []
+      "fields": [
+        {
+          "id": "dasdasd",
+          "type": "choice",
+          "label": "dsadsadasdasd",
+          "choices": [
+            "dasdsa",
+            "dasdasdasd",
+            "j",
+            "jkhhjkhjkjk",
+            "hkj",
+            "hjk",
+            "jkh",
+            "jkh",
+            "jkh",
+            "jk",
+            "hkj",
+            "jkh"
+          ]
+        }
+      ]
     }
   ]
 }
