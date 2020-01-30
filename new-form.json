@@ -1,0 +1,31 @@
+{
+  "authConfig": {
+    "authModule": "anonymous"
+  },
+  "formName": "New Form",
+  "destinations": [
+    {
+      "id": "transitionToSubmitted",
+      "type": "stateTransition",
+      "requiredState": "Submitted"
+    }
+  ],
+  "emailTemplateId": "dsdsad",
+  "declarationSection": {
+    "title": "Declaration",
+    "shortName": "Declaration",
+    "fields": []
+  },
+  "acknowledgementSection": {
+    "title": "Confirmation page",
+    "shortName": "Acknowledgement Page",
+    "fields": []
+  },
+  "_id": "new-form",
+  "sections": [
+    {
+      "title": "Title",
+      "fields": []
+    }
+  ]
+}
