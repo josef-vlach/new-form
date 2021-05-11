@@ -1,84 +1,84 @@
 {
-    "_id" : "sum-bug",
-    "formName" : "Sum Bug 222",
-    "languages" : [
+    "_id": "sum-bug",
+    "formName": "Sum Bug 222",
+    "languages": [
         "en",
         "cy"
     ],
-    "sections" : [
+    "sections": [
         {
-            "title" : "Page A",
-            "fields" : [
+            "title": "Page A",
+            "fields": [
                 {
-                    "id" : "fieldA",
-                    "type" : "text",
-                    "label" : "Field A",
-                    "format" : "sterling"
+                    "id": "fieldA",
+                    "type": "text",
+                    "label": "Field A",
+                    "format": "sterling"
                 }
             ]
         },
         {
-            "title" : "About page",
-            "includeIf" : "${fieldA < 0}",
-            "fields" : [
+            "title": "About page",
+            "includeIf": "${fieldA < 0}",
+            "fields": [
                 {
-                    "id" : "group",
-                    "type" : "group",
-                    "repeatsMax" : 3,
-                    "repeatsMin" : 1,
-                    "label" : "Group",
-                    "fields" : [
+                    "id": "group",
+                    "type": "group",
+                    "repeatsMax": 3,
+                    "repeatsMin": 1,
+                    "label": "Group",
+                    "fields": [
                         {
-                            "id" : "textA",
-                            "type" : "text",
-                            "label" : "Text A",
-                            "format" : "sterling"
+                            "id": "textA",
+                            "type": "text",
+                            "label": "Text A",
+                            "format": "sterling"
                         },
                         {
-                            "id" : "totalTextA",
-                            "type" : "text",
-                            "label" : "Total A",
-                            "format" : "sterling",
-                            "value" : "${fieldA}",
-                            "submitMode" : "readonly",
-                            "presentationHint" : "totalValue"
+                            "id": "totalTextA",
+                            "type": "text",
+                            "label": "Total A",
+                            "format": "sterling",
+                            "value": "${fieldA}",
+                            "submitMode": "readonly",
+                            "presentationHint": "totalValue"
                         }
                     ]
                 }
             ]
         },
         {
-            "title" : "Page Last",
-            "fields" : [
+            "title": "Page Last",
+            "fields": [
                 {
-                    "id" : "lastInfo",
-                    "type" : "info",
-                    "label" : "",
-                    "infoText" : "${textA.sum} :: ${totalTextA.sum}"
+                    "id": "lastInfo",
+                    "type": "info",
+                    "label": "",
+                    "infoText": "${textA.sum} :: ${totalTextA.sum}"
                 }
             ]
         }
     ],
-    "emailTemplateId" : "cir_return_confirmation",
-    "authConfig" : {
-        "authModule" : "email",
-        "emailCodeTemplate" : "tor_code"
+    "emailTemplateId": "cir_return_confirmation",
+    "authConfig": {
+        "authModule": "email",
+        "emailCodeTemplate": "tor_code"
     },
-    "declarationSection" : {
-        "title" : "Declaration",
-        "fields" : [
+    "declarationSection": {
+        "title": "Declaration",
+        "fields": [
         ]
     },
-    "acknowledgementSection" : {
-        "title" : "Confirmation page",
-        "fields" : [
+    "acknowledgementSection": {
+        "title": "Confirmation page",
+        "fields": [
         ]
     },
-    "destinations" : [
+    "destinations": [
         {
-            "id" : "transitionToSubmitted",
-            "type" : "stateTransition",
-            "requiredState" : "Submitted"
+            "id": "transitionToSubmitted",
+            "type": "stateTransition",
+            "requiredState": "Submitted"
         }
     ]
 }
