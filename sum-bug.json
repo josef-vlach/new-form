@@ -66,13 +66,11 @@
     },
     "declarationSection": {
         "title": "Declaration",
-        "fields": [
-        ]
+        "fields": []
     },
     "acknowledgementSection": {
         "title": "Confirmation page",
-        "fields": [
-        ]
+        "fields": []
     },
     "destinations": [
         {
