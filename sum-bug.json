@@ -1,48 +1,64 @@
 {
   "_id" : "sum-bug",
   "formName" : "Sum Bug 222",
-  "languages" : [ "en", "cy" ],
-  "sections" : [ {
-    "title" : "Page A",
-    "fields" : [ {
-      "id" : "fieldA",
-      "type" : "text",
-      "label" : "Field A",
-      "format" : "sterling"
-    } ]
-  }, {
-    "title" : "About page",
-    "includeIf" : "${fieldA < 0}",
-    "fields" : [ {
-      "id" : "group",
-      "type" : "group",
-      "repeatsMax" : 3,
-      "repeatsMin" : 1,
-      "label" : "Group",
-      "fields" : [ {
-        "id" : "textA",
-        "type" : "text",
-        "label" : "Text A",
-        "format" : "sterling"
-      }, {
-        "id" : "totalTextA",
-        "type" : "text",
-        "label" : "Total A",
-        "format" : "sterling",
-        "value" : "${fieldA}",
-        "submitMode" : "readonly",
-        "presentationHint" : "totalValue"
-      } ]
-    } ]
-  }, {
-    "title" : "Page Last",
-    "fields" : [ {
-      "id" : "lastInfo",
-      "type" : "info",
-      "label" : "",
-      "infoText" : "${textA.sum} :: ${totalTextA.sum}"
-    } ]
-  } ],
+  "languages" : [
+    "en",
+    "cy"
+  ],
+  "sections" : [
+    {
+      "title" : "Page A",
+      "fields" : [
+        {
+          "id" : "fieldA",
+          "type" : "text",
+          "label" : "Field A",
+          "format" : "sterling"
+        }
+      ]
+    },
+    {
+      "title" : "About page",
+      "includeIf" : "${fieldA < 0}",
+      "fields" : [
+        {
+          "id" : "group",
+          "type" : "group",
+          "repeatsMax" : 3,
+          "repeatsMin" : 1,
+          "label" : "Group",
+          "fields" : [
+            {
+              "id" : "textA",
+              "type" : "text",
+              "label" : "Text A",
+              "format" : "sterling"
+            },
+            {
+              "id" : "totalTextA",
+              "type" : "text",
+              "label" : "Total A",
+              "format" : "sterling",
+              "value" : "${fieldA}",
+              "submitMode" : "readonly",
+              "presentationHint" : "totalValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title" : "Page Last",
+      "fields" : [
+        {
+          "id" : "lastInfo",
+          "type" : "info",
+          "label" : "",
+          "infoText" : "${textA.sum} :: ${totalTextA.sum}"
+        }
+      ]
+    }
+  ],
   "emailTemplateId" : "cir_return_confirmation",
   "authConfig" : {
     "authModule" : "email",
@@ -50,15 +66,19 @@
   },
   "declarationSection" : {
     "title" : "Declaration",
-    "fields" : [ ]
+    "fields" : [
+    ]
   },
   "acknowledgementSection" : {
     "title" : "Confirmation page",
-    "fields" : [ ]
+    "fields" : [
+    ]
   },
-  "destinations" : [ {
-    "id" : "transitionToSubmitted",
-    "type" : "stateTransition",
-    "requiredState" : "Submitted"
-  } ]
+  "destinations" : [
+    {
+      "id" : "transitionToSubmitted",
+      "type" : "stateTransition",
+      "requiredState" : "Submitted"
+    }
+  ]
 }
