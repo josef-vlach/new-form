@@ -1,1 +1,82 @@
-ewogICAgIl9pZCI6ICJzdW0tYnVnIiwKICAgICJmb3JtTmFtZSI6ICJTdW0gQnVnIDQ0NCIsCiAgICAibGFuZ3VhZ2VzIjogWwogICAgICAgICJlbiIsCiAgICAgICAgImN5IgogICAgXSwKICAgICJzZWN0aW9ucyI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJ0aXRsZSI6ICJQYWdlIEEiLAogICAgICAgICAgICAiZmllbGRzIjogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICJpZCI6ICJmaWVsZEEiLAogICAgICAgICAgICAgICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICAgICAgICAgICAgICJsYWJlbCI6ICJGaWVsZCBBIiwKICAgICAgICAgICAgICAgICAgICAiZm9ybWF0IjogInN0ZXJsaW5nIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBdCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgICJ0aXRsZSI6ICJBYm91dCBwYWdlIiwKICAgICAgICAgICAgImluY2x1ZGVJZiI6ICIke2ZpZWxkQSA8IDB9IiwKICAgICAgICAgICAgImZpZWxkcyI6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAiaWQiOiAiZ3JvdXAiLAogICAgICAgICAgICAgICAgICAgICJ0eXBlIjogImdyb3VwIiwKICAgICAgICAgICAgICAgICAgICAicmVwZWF0c01heCI6IDMsCiAgICAgICAgICAgICAgICAgICAgInJlcGVhdHNNaW4iOiAxLAogICAgICAgICAgICAgICAgICAgICJsYWJlbCI6ICJHcm91cCIsCiAgICAgICAgICAgICAgICAgICAgImZpZWxkcyI6IFsKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgImlkIjogInRleHRBIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImxhYmVsIjogIlRleHQgQSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZm9ybWF0IjogInN0ZXJsaW5nIgogICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaWQiOiAidG90YWxUZXh0QSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJsYWJlbCI6ICJUb3RhbCBBIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJmb3JtYXQiOiAic3RlcmxpbmciLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInZhbHVlIjogIiR7ZmllbGRBfSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAic3VibWl0TW9kZSI6ICJyZWFkb25seSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicHJlc2VudGF0aW9uSGludCI6ICJ0b3RhbFZhbHVlIgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBdCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgICJ0aXRsZSI6ICJQYWdlIExhc3QiLAogICAgICAgICAgICAiZmllbGRzIjogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICJpZCI6ICJsYXN0SW5mbyIsCiAgICAgICAgICAgICAgICAgICAgInR5cGUiOiAiaW5mbyIsCiAgICAgICAgICAgICAgICAgICAgImxhYmVsIjogIiIsCiAgICAgICAgICAgICAgICAgICAgImluZm9UZXh0IjogIiR7dGV4dEEuc3VtfSA6OiAke3RvdGFsVGV4dEEuc3VtfSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgXQogICAgICAgIH0KICAgIF0sCiAgICAiZW1haWxUZW1wbGF0ZUlkIjogImNpcl9yZXR1cm5fY29uZmlybWF0aW9uIiwKICAgICJhdXRoQ29uZmlnIjogewogICAgICAgICJhdXRoTW9kdWxlIjogImVtYWlsIiwKICAgICAgICAiZW1haWxDb2RlVGVtcGxhdGUiOiAidG9yX2NvZGUiCiAgICB9LAogICAgImRlY2xhcmF0aW9uU2VjdGlvbiI6IHsKICAgICAgICAidGl0bGUiOiAiRGVjbGFyYXRpb24iLAogICAgICAgICJmaWVsZHMiOiBbXQogICAgfSwKICAgICJhY2tub3dsZWRnZW1lbnRTZWN0aW9uIjogewogICAgICAgICJ0aXRsZSI6ICJDb25maXJtYXRpb24gcGFnZSIsCiAgICAgICAgImZpZWxkcyI6IFtdCiAgICB9LAogICAgImRlc3RpbmF0aW9ucyI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJpZCI6ICJ0cmFuc2l0aW9uVG9TdWJtaXR0ZWQiLAogICAgICAgICAgICAidHlwZSI6ICJzdGF0ZVRyYW5zaXRpb24iLAogICAgICAgICAgICAicmVxdWlyZWRTdGF0ZSI6ICJTdWJtaXR0ZWQiCiAgICAgICAgfQogICAgXQp9
+{
+    "_id": "sum-bug",
+    "formName": "Sum Bug 444",
+    "languages": [
+        "en",
+        "cy"
+    ],
+    "sections": [
+        {
+            "title": "Page A",
+            "fields": [
+                {
+                    "id": "fieldA",
+                    "type": "text",
+                    "label": "Field A",
+                    "format": "sterling"
+                }
+            ]
+        },
+        {
+            "title": "About page",
+            "includeIf": "${fieldA < 0}",
+            "fields": [
+                {
+                    "id": "group",
+                    "type": "group",
+                    "repeatsMax": 3,
+                    "repeatsMin": 1,
+                    "label": "Group",
+                    "fields": [
+                        {
+                            "id": "textA",
+                            "type": "text",
+                            "label": "Text A",
+                            "format": "sterling"
+                        },
+                        {
+                            "id": "totalTextA",
+                            "type": "text",
+                            "label": "Total A",
+                            "format": "sterling",
+                            "value": "${fieldA}",
+                            "submitMode": "readonly",
+                            "presentationHint": "totalValue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Page Last",
+            "fields": [
+                {
+                    "id": "lastInfo",
+                    "type": "info",
+                    "label": "",
+                    "infoText": "${textA.sum} :: ${totalTextA.sum}"
+                }
+            ]
+        }
+    ],
+    "emailTemplateId": "cir_return_confirmation",
+    "authConfig": {
+        "authModule": "email",
+        "emailCodeTemplate": "tor_code"
+    },
+    "declarationSection": {
+        "title": "Declaration",
+        "fields": []
+    },
+    "acknowledgementSection": {
+        "title": "Confirmation page",
+        "fields": []
+    },
+    "destinations": [
+        {
+            "id": "transitionToSubmitted",
+            "type": "stateTransition",
+            "requiredState": "Submitted"
+        }
+    ]
+}
