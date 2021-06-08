@@ -1,0 +1,36 @@
+{
+  "_id": "minimal",
+  "formName": "Minimal",
+  "sections": [
+    {
+      "title": "Page A",
+      "fields": [
+        {
+          "id": "fieldA",
+          "type": "text",
+          "label": "Field A",
+          "format": "sterling"
+        }
+      ]
+    }
+  ],
+  "emailTemplateId": "cir_return_confirmation",
+  "authConfig": {
+    "authModule": "anonymous"
+  },
+  "declarationSection": {
+    "title": "Declaration",
+    "fields": []
+  },
+  "acknowledgementSection": {
+    "title": "Confirmation page",
+    "fields": []
+  },
+  "destinations": [
+    {
+      "id": "transitionToSubmitted",
+      "type": "stateTransition",
+      "requiredState": "Submitted"
+    }
+  ]
+}
