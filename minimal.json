@@ -8,7 +8,7 @@
         {
           "id": "fieldA",
           "type": "text",
-          "label": "Field A",
+          "label": "Field A 1",
           "format": "sterling"
         }
       ]
