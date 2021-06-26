@@ -1,0 +1,57 @@
+{
+  "_id": "addtolist",
+  "formName": "Add to list with one component",
+  "sections": [
+    {
+      "type": "addToList",
+      "title": "$n) Details list ",
+      "shortName": "$n) Details",
+      "summaryName": "Details Summary Name",
+      "description": "$n) ${a} ${b}",
+      "addAnotherQuestion": {
+        "id": "owner",
+        "type": "choice",
+        "label": "$n) So you want to add another file?",
+        "format": "yesno"
+      },
+      "pages": [
+        {
+          "title": "$n) RC page",
+          "fields": [
+            {
+              "id": "a",
+              "type": "text",
+              "label": "$n) Text",
+              "format": "text"
+            },
+            {
+              "id": "b",
+              "type": "text",
+              "label": "$n) Text",
+              "format": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "emailTemplateId": "confirmation",
+  "authConfig": {
+    "authModule": "anonymous"
+  },
+  "declarationSection": {
+    "title": "Declaration",
+    "fields": []
+  },
+  "acknowledgementSection": {
+    "title": "Confirmation page",
+    "fields": []
+  },
+  "destinations": [
+    {
+      "id": "transitionToSubmitted",
+      "type": "stateTransition",
+      "requiredState": "Submitted"
+    }
+  ]
+}
