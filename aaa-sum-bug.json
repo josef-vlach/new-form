@@ -59,19 +59,19 @@
             ]
         }
     ],
-    "emailTemplateId": "cir_return_confirmation",
+    "emailTemplateId": "ioss_confirmation",
     "emailParameters": [
       {
         "value": "${fullName}",
-        "emailTemplateVariable": "customerName"
+        "emailTemplateVariable": "xcustomerName"
       },
       {
         "value": "${form.submissionReference}",
-        "emailTemplateVariable": "submissionReference"
+        "emailTemplateVariable": "xsubmissionReference"
       },
       {
         "value": "${businessNameHidden}",
-        "emailTemplateVariable": "businessName"
+        "emailTemplateVariable": "xbusinessName"
       }
     ],
     "authConfig": {
