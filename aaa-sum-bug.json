@@ -60,6 +60,20 @@
         }
     ],
     "emailTemplateId": "cir_return_confirmation",
+    "emailParameters": [
+      {
+        "value": "${fullName}",
+        "emailTemplateVariable": "customerName"
+      },
+      {
+        "value": "${form.submissionReference}",
+        "emailTemplateVariable": "submissionReference"
+      },
+      {
+        "value": "${businessNameHidden}",
+        "emailTemplateVariable": "businessName"
+      }
+    ],
     "authConfig": {
         "authModule": "email",
         "emailCodeTemplate": "tor_code"
