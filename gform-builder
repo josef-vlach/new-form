@@ -17,7 +17,7 @@
           "_label" : "Component A label",
           "format" : "text",
           "_format" : "sterling",
-          "helpText" : "First help textXXXXCDEFGHABCPOKLOPaabbba",
+          "helpText" : "First help textXXXXCDEFGHABCPOKLOPaabbbaaa",
           "value" : "${1}"
         },
         {
