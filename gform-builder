@@ -7,17 +7,17 @@
   },
   "sections" : [
     {
-      "title" : "Page A title Xxaabcdswsadaddadasdasdasdadsad",
+      "title" : "Page A title XX",
       "_caption" : "Caption A",
       "fields" : [
         {
           "id" : "first",
           "type" : "text",
-          "label" : "Page A title ddsadsdasdasdasdasdasdas",
+          "label" : "Page A title",
           "_label" : "Component A label",
           "format" : "text",
           "_format" : "sterling",
-          "helpText" : " dsadasdas Firs dsadasdt help textXXXXCDEFGdsdsadasHABCPdsadsadOKLdddOPa AAAAXXXdddFFFFFF XXXXddsdasdasdasasdsadasdaabbba dsdsadasaabbdasdsasda sdadd asdsadasdsadsadsdsdas asdasasdsadsadadadadsadasdsadadsdsdsads ds dadasdsa dasdasds ",
+          "helpText" : "First help text",
           "value" : "${1}"
         },
         {
@@ -26,23 +26,29 @@
           "label" : "",
           "infoText" : "standard content",
           "infoType" : "standard"
+        },
+        {
+          "id" : "accountingDate",
+          "type" : "calendarDate",
+          "label" : "Calendar Date"
         }
       ]
     },
     {
-      "title" : "Upload you passport",
+      "title" : "Upload you passport  ${day(accountingDate)}",
+      "includeIf" : "${day(accountingDate) = 29}",
       "fields" : [
         {
           "id" : "passport",
           "type" : "file",
           "label" : "Upload you passport",
           "helpText" : "Passport helptext",
-          "mandatory" : "false"
+          "mandatory" : "true"
         }
       ]
     },
     {
-      "title" : "Info page",
+      "title" : "Info page ${day(accountingDate)}",
       "_caption" : "Caption A",
       "fields" : [
         {
