@@ -1,6 +1,7 @@
 {
   "_id": "addtolist",
   "formName": "Add to list with one component",
+  "version": "1",
   "sections": [
     {
       "type": "addToList",

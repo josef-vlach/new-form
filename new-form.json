@@ -3,6 +3,7 @@
     "authModule": "anonymous"
   },
   "formName": "New Form",
+  "version": "1",
   "destinations": [
     {
       "id": "transitionToSubmitted",

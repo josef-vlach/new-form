@@ -1,6 +1,7 @@
 {
   "_id": "minimal",
   "formName": "Minimal",
+  "version": "1",
   "sections": [
     {
       "title": "Page A",
