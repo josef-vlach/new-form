@@ -19,7 +19,7 @@
           "format" : "text",
           "_format" : "sterling",
           "helpText" : "First help text",
-          "value" : "${2}"
+          "value" : "${3}"
         },
         {
           "id" : "infoStandard",
