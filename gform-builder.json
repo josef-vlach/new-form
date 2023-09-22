@@ -5,13 +5,16 @@
   ],
   "formName" : "Gform Builder",
   "version": "6",
+  "expressions": {
+    "version": "'6'"
+  },
   "emailTemplateId" : "confirmation",
   "authConfig" : {
     "authModule" : "anonymous"
   },
   "sections" : [
     {
-      "title" : "Page A title QQ",
+      "title" : "${version} - Page A title QQ",
       "_caption" : "Caption A",
       "fields" : [
         {
@@ -39,7 +42,7 @@
       ]
     },
     {
-      "title" : "Upload you passport  ${day(accountingDate)}",
+      "title" : " ${version} - Upload you passport  ${day(accountingDate)} ",
       "includeIf" : "${day(accountingDate) = 29}",
       "fields" : [
         {
@@ -52,7 +55,7 @@
       ]
     },
     {
-      "title" : "Info page ${day(accountingDate)}",
+      "title" : " ${version} - Info page ${day(accountingDate)}",
       "_caption" : "Caption A",
       "fields" : [
         {
@@ -73,7 +76,7 @@
       ]
     },
     {
-      "title" : "Test address",
+      "title" : "${version} - Test address",
       "shortName" : "shortName",
       "fields" : [
         {
