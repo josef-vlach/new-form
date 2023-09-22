@@ -1,10 +1,10 @@
 {
   "_id" : "gform-builder",
   "legacyFormIds": [
-    "gform-builder-v4"
+    "gform-builder-v5"
   ],
   "formName" : "Gform Builder",
-  "version": "5",
+  "version": "6",
   "emailTemplateId" : "confirmation",
   "authConfig" : {
     "authModule" : "anonymous"
