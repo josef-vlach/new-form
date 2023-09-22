@@ -1,7 +1,6 @@
 {
   "_id" : "gform-builder",
   "formName" : "Gform Builder",
-  "version": "6",
   "emailTemplateId" : "confirmation",
   "authConfig" : {
     "authModule" : "anonymous"
