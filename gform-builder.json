@@ -1,5 +1,8 @@
 {
   "_id" : "gform-builder",
+  "legacyFormIds": [
+    "gform-builder-v4"
+  ],
   "formName" : "Gform Builder",
   "version": "5",
   "emailTemplateId" : "confirmation",
