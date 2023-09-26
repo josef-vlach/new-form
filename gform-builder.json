@@ -1,9 +1,12 @@
 {
   "_id" : "gform-builder",
+  "legacyFormIds": [
+    "gform-builder-v6"
+  ],
   "formName" : "Gform Builder",
-  "version": "11",
+  "version": "12",
   "expressions": {
-    "version": "'11'"
+    "version": "'12'"
   },
   "emailTemplateId" : "confirmation",
   "authConfig" : {
