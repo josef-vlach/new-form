@@ -4,9 +4,9 @@
     "gform-builder-v6"
   ],
   "formName" : "Gform Builder",
-  "version": "13",
+  "version": "12",
   "expressions": {
-    "version": "'13'"
+    "version": "'12'"
   },
   "emailTemplateId" : "confirmation",
   "authConfig" : {
