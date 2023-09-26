@@ -1,9 +1,9 @@
 {
   "_id" : "gform-builder",
   "legacyFormIds": [
-    "gform-builder-v11"
+    "gform-builder-v15"
   ],
-  "formName" : "Gform Builder XXXX",
+  "formName" : "Gform Builder",
   "version": "16",
   "expressions": {
     "version": "'16'"
