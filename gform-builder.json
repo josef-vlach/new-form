@@ -14,7 +14,7 @@
   },
   "sections" : [
     {
-      "title" : "${version} - Page A title QQ",
+      "title" : "${version} - Page A title QQ - BB",
       "_caption" : "Caption A",
       "fields" : [
         {
