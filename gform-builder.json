@@ -4,9 +4,9 @@
     "gform-builder-v6"
   ],
   "formName" : "Gform Builder",
-  "version": "8",
+  "version": "9",
   "expressions": {
-    "version": "'8'"
+    "version": "'9'"
   },
   "emailTemplateId" : "confirmation",
   "authConfig" : {
@@ -14,7 +14,7 @@
   },
   "sections" : [
     {
-      "title" : "${version} - Page A title QQ - BB",
+      "title" : "${version} - Page A title QQ - BBBB",
       "_caption" : "Caption A",
       "fields" : [
         {
