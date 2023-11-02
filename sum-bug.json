@@ -1,6 +1,7 @@
 {
     "_id": "sum-bug",
     "formName": "Sum Bug 444",
+    "description": "xxx",
     "version": 1,
     "languages": [
         "en",
@@ -62,8 +63,7 @@
     ],
     "emailTemplateId": "cir_return_confirmation",
     "authConfig": {
-        "authModule": "email",
-        "emailCodeTemplate": "tor_code"
+        "authModule": "anonymous"
     },
     "declarationSection": {
         "title": "Declaration",
